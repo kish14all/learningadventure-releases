@@ -1,7 +1,10 @@
-# Learning Adventure - grades 3-5 pilot
+# Learning Adventure - Pre-K through Grade 12 pilot
 
 **Parent-supervised preview, not a reviewed or complete curriculum.** All lessons
-and suggested Foundations, US and India pathway mappings await educator review.
+and suggested curriculum mappings await educator review. Filters include All
+curricula, Foundations, US, India, ICSE/ISC foundations and State-board foundations.
+The last two currently use shared foundations, not individually mapped state
+syllabi or verified ICSE/ISC coverage.
 This download is not a Play Store or Microsoft Store release.
 
 ## Install
@@ -52,6 +55,9 @@ A failed transfer keeps the existing lessons. Parents can restore the previous
 verified library when available, or use bundled lessons without deleting progress.
 The initial online library can match the bundled version; this is normal, not a
 missing download.
+The expanded Pre-K-12 library requires app build 3 or later; install the new APK
+over the existing app before downloading expanded content. A grades-3-5-only
+cache cannot replace the expanded bundled library.
 
 The separate public `learningadventure-content` repository hosts educational
 content only. It never receives learning progress. GitHub receives ordinary network
@@ -62,16 +68,23 @@ approval; the library remains a draft.
 
 Math, science, social studies and English; concepts, examples, FAQ, quick questions,
 quizzes, generated math, explanations, saved questions and local progress.
+Build 3 covers all 14 levels from Pre-K and Kindergarten through Grade 12.
+Grades 11-12 have math, physics, chemistry, biology and English.
+Early activities include local pictures and tap-to-listen with an installed
+offline English device voice. No audio plays automatically and no microphone
+is used. If a voice is unavailable, install an offline voice in device speech
+settings or read together with a grown-up. Online-only voices are not used.
 Build 2 adds balanced quizzes, recent-question avoidance, adaptive challenge levels,
 spaced reviews and weekly discoveries. Generated/structured variants are not
 independently authored or reviewed lessons. Difficulty labels reflect practice
 history, not a standardized assessment.
 
-The offline library has **162 draft topics** with concepts, examples and FAQ, and
-**3,324 bank questions**: 84 authored pilot questions, 2,430 structured tasks from
-810 original cases, and 810 generated math items. Each grade includes 282 math,
-276 science, 276 social-studies and 274 English questions, plus runtime math
-variations. The larger development export is not the number of independent
+The offline library has **438 draft topics** with concepts, examples and FAQ, and
+**8,280 bank questions**: 84 authored pilot questions, 6,210 structured tasks and
+1,986 generated math items. Every new grade/subject combination includes six
+topics and 102-108 questions; the original grades 3-5 questions are preserved.
+Runtime math provides additional numerical variations. The larger development
+export is not the number of independent
 teaching concepts.
 
 Learning works offline. There are no ads, analytics, child accounts, open chat,
