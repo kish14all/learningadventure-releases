@@ -42,12 +42,37 @@ For Windows, close the app and extract the complete new ZIP into a new folder.
 Run the new copy; files are not replaced automatically. The application identity
 and local preference location remain the same.
 
+## New lessons without reinstalling
+
+Build 2 adds **Parent corner > Signed lesson updates > Check and download new
+lessons**. The parent initiates each content check. Compatible lesson releases
+download separately from the APK/Windows app and work offline after verification.
+Updates are publisher-signed and checked before replacing the current library.
+A failed transfer keeps the existing lessons. Parents can restore the previous
+verified library when available, or use bundled lessons without deleting progress.
+The initial online library can match the bundled version; this is normal, not a
+missing download.
+
+The separate public `learningadventure-content` repository hosts educational
+content only. It never receives learning progress. GitHub receives ordinary network
+metadata when a parent checks/downloads. Content signatures do not mean educator
+approval; the library remains a draft.
+
 ## Pilot features and privacy
 
 Math, science, social studies and English; concepts, examples, FAQ, quick questions,
 quizzes, generated math, explanations, saved questions and local progress.
-The practice bank contains 42 draft lessons and 13,491 distinct authored/generated
-questions; generated variants are not independently reviewed lessons.
+Build 2 adds balanced quizzes, recent-question avoidance, adaptive challenge levels,
+spaced reviews and weekly discoveries. Generated/structured variants are not
+independently authored or reviewed lessons. Difficulty labels reflect practice
+history, not a standardized assessment.
+
+The offline library has **162 draft topics** with concepts, examples and FAQ, and
+**3,324 bank questions**: 84 authored pilot questions, 2,430 structured tasks from
+810 original cases, and 810 generated math items. Each grade includes 282 math,
+276 science, 276 social-studies and 274 English questions, plus runtime math
+variations. The larger development export is not the number of independent
+teaching concepts.
 
 Learning works offline. There are no ads, analytics, child accounts, open chat,
 purchases or cloud progress sync. Optional network actions and their implications
