@@ -66,6 +66,22 @@ approval; the library remains a draft.
 
 ## Pilot features and privacy
 
+Build 4 adds **CogatMath** on Adventure: original offline number analogies,
+number puzzles and number series for every app level. Pre-K is readiness play,
+not an official CogAT test level. These are generated practice variations, not
+official test items, endorsed preparation or standardized scores.
+Three consecutive correct answers increase the next challenge; two consecutive
+wrong answers decrease it. Progress is saved separately per grade.
+The optional timer is off by default and pauses in the background. Below 10
+seconds the countdown turns red; after expiry the child can still answer.
+There is no extra timeout penalty. Results show late correct and late wrong
+answers separately. General adaptive math/reading modes and other CogAT-style
+batteries are not part of this increment.
+The development export has 20,824 distinct generated practice variations,
+separate from the general lesson bank below. The app creates variations locally;
+this is not 20,824 independently authored or reviewed concepts, and no separate
+fixed mock-test bank is included.
+
 Math, science, social studies and English; concepts, examples, FAQ, quick questions,
 quizzes, generated math, explanations, saved questions and local progress.
 Build 3 covers all 14 levels from Pre-K and Kindergarten through Grade 12.
