@@ -64,19 +64,57 @@ content only. It never receives learning progress. GitHub receives ordinary netw
 metadata when a parent checks/downloads. Content signatures do not mean educator
 approval; the library remains a draft.
 
+## Build 5: students, recovery and a browsable library
+
+Open app -> choose student -> **Continue learning** or start something new.
+The illustrated home provides Learn, Practice, Play and solve, and My progress.
+Grown-ups can add/edit/archive nickname/avatar profiles with age in years, school
+grade and learning preferences. No full name or birth date is required.
+Tap the avatar to switch; each child keeps separate marks, mistakes, preferences
+and unfinished learning. Changing school grade preserves history.
+
+Quiz/CogatMath recovery keeps exact questions, choices, answers and hints.
+The optional CogatMath timer pauses in the background and checkpoints every second;
+an abrupt termination can lose the subsecond remainder since its last checkpoint.
+Lessons save their scroll-end/background/exit place; workshops save each action.
+Starting something new asks before replacing the one unfinished activity.
+Previous shared history is preserved for explicit assignment to one empty student,
+not duplicated into siblings.
+
+**Question library** exposes the bank in searchable/filterable 20-item pages,
+including the complete 20,824-variation generated reasoning export across grades.
+The 10/20/30-question session limit is not the library size. Hints, conceptual
+clues and worked steps support practice; bank-launched practice is open-book.
+Correct answers after help count as correct but do not raise challenge levels.
+
+**Play and solve** includes five-round fraction, number-line, reading, density,
+fictional-map and sentence workshops. Start reading currently has 12 original
+short passages in four reading bands, not thousands of reading passages or a
+validated assessment. Start math uses topic-adaptive generated practice.
+Workshop models are foundations, not complete courses for every grade.
+Discoveries, optional celebrations, reflection and parent insights encourage
+growth without punitive streaks or public rankings. School grade, challenge level
+and practice marks are separate; none is an official CogAT score.
+
+**Parent corner > Manage students and backups** exports/restores all students,
+including archived profiles and unassigned history. Restore previews the backup
+and requires confirmation before replacing all local student records.
+Backups are checksummed plaintext, not encrypted/authenticated: save privately and
+clear the clipboard afterward. Progress is local; there is no cloud sync.
+Content reports are saved locally for parent review/export, not sent automatically.
+
 ## Pilot features and privacy
 
-Build 4 adds **CogatMath** on Adventure: original offline number analogies,
+Build 4 introduced **CogatMath**, now available from Home/Practice: original offline number analogies,
 number puzzles and number series for every app level. Pre-K is readiness play,
 not an official CogAT test level. These are generated practice variations, not
 official test items, endorsed preparation or standardized scores.
-Three consecutive correct answers increase the next challenge; two consecutive
-wrong answers decrease it. Progress is saved separately per grade.
+Three consecutive independent correct answers increase the next challenge; two consecutive
+wrong answers decrease it. Progress is saved separately per student/grade.
 The optional timer is off by default and pauses in the background. Below 10
 seconds the countdown turns red; after expiry the child can still answer.
 There is no extra timeout penalty. Results show late correct and late wrong
-answers separately. General adaptive math/reading modes and other CogAT-style
-batteries are not part of this increment.
+answers separately. Other CogAT-style batteries are not included.
 The development export has 20,824 distinct generated practice variations,
 separate from the general lesson bank below. The app creates variations locally;
 this is not 20,824 independently authored or reviewed concepts, and no separate
